@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vollständige HTML-Demonstration</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header class="header-inspiration">
+        <h1 class="title-inspiration">Alle HTML-Tags</h1>
+    </header>
+
+    <main class="main-inspiration">
+        <!-- Vollständige Liste der HTML-Tags -->
+        <section class="section-inspiration"></section>
+            <h2 class="subtitle-inspiration">Verbliebene und selten genutzte Elemente</h2>
+            
+            <!-- 1. <bdo>: Textumkehrung -->
+            <p class="text-inspiration">Beispiel für <bdo dir="rtl" class="bdo-inspiration">Text von rechts nach links</bdo>.</p>
+            
+            <!-- 2. <cite>: Quellenangabe -->
+            <p class="text-inspiration">Dies ist ein Buch: <cite class="cite-inspiration">Der Herr der Ringe</cite>.</p>
+
+            <!-- 3. <dfn>: Definition -->
+            <p class="text-inspiration">Das Wort <dfn class="dfn-inspiration">Hypertext</dfn> ist der Schlüssel zu HTML.</p>
+
+            <!-- 4. <data>: Maschinenlesbare Daten -->
+            <p class="text-inspiration">Preis: <data value="29.99" class="data-inspiration">29,99€</data></p>
+
+            <!-- 5. <output>: Ausgaben eines Scripts -->
+            <form oninput="result.value=parseInt(a.value)+parseInt(b.value)" class="form-inspiration">
+                <input type="number" id="a" value="0" class="input-inspiration"> + 
+                <input type="number" id="b" value="0" class="input-inspiration"> = 
+                <output name="result" class="output-inspiration">0</output>
+            </form>
+
+            <!-- 6. <wbr>: Zeilenumbruch-Hinweis -->
+            <p class="text-inspiration">LangeWorteMit<wbr class="wbr-inspiration">UmbruchMöglichkeit</p>
+
+            <!-- 7. <ins> und <del>: Änderungen im Text -->
+            <p class="text-inspiration">Dieser Text wurde <ins class="ins-inspiration">hinzugefügt</ins> und <del class="del-inspiration">entfernt</del>.</p>
+            
+            <!-- 8. <noscript>: Fallback für deaktiviertes JavaScript -->
+            <noscript class="noscript-inspiration">JavaScript ist deaktiviert. Einige Funktionen funktionieren nicht.</noscript>
+
+            <!-- 9. <samp>: Programmausgabe -->
+            <p class="text-inspiration">Beispiel einer Ausgabe: <samp class="samp-inspiration">404 Error</samp></p>
+
+            <!-- 10. <var>: Variablen -->
+            <p class="text-inspiration">Die Formel lautet: <var class="var-inspiration">x</var> = 2 * <var class="var-inspiration">y</var>.</p>
+
+            <!-- 11. <sup> und <sub>: Hoch- und Tiefstellen -->
+            <p class="text-inspiration">Wasser ist H<sub class="sub-inspiration">2</sub>O, und 2<sup class="sup-inspiration">10</sup> = 1024.</p>
+
+            <!-- 12. <time>: Zeitangaben -->
+            <p class="text-inspiration">Das Event beginnt am <time datetime="2024-11-23" class="time-inspiration">23. November 2024</time>.</p>
+
+            <!-- 13. <template>: Vorlage -->
+            <template id="tpl" class="template-inspiration">
+                <p class="text-inspiration">Dies ist ein Template-Element.</p>
+            </template>
+            <script>
+                const template = document.getElementById('tpl');
+                document.body.appendChild(template.content.cloneNode(true));
+            </script>
+
+            <!-- 14. <picture>: Mehrere Bilderquellen -->
+            <picture class="picture-inspiration">
+                <source media="(max-width: 600px)" srcset="https://via.placeholder.com/300" class="source-inspiration">
+                <source media="(min-width: 601px)" srcset="https://via.placeholder.com/600" class="source-inspiration">
+                <img src="https://via.placeholder.com/300" alt="Beispielbild" class="img-inspiration">
+            </picture>
+
+            <!-- 15. <track>: Untertitel für Videos -->
+            <video controls width="300" class="video-inspiration">
+                <source src="video.mp4" type="video/mp4" class="source-inspiration">
+                <track src="subtitles.vtt" kind="subtitles" srclang="de" label="Deutsch" class="track-inspiration">
+                Dein Browser unterstützt kein Video.
+            </video>
+
+            <!-- 16. <bgsound>: Hintergrundmusik (veraltet) -->
+            <bgsound src="audio.mp3" loop="infinite" class="bgsound-inspiration">
+
+            <!-- 17. <isindex>: Eingabezeile (veraltet) -->
+            <p class="text-inspiration">Das folgende Element ist veraltet:</p>
+            <isindex prompt="Gib einen Suchbegriff ein:" class="isindex-inspiration">
+
+            <!-- 18. <keygen>: Schlüsselgenerierung (veraltet) -->
+            <p class="text-inspiration">Das folgende Element ist veraltet:</p>
+            <form class="form-inspiration">
+                <label for="keygen" class="label-inspiration">Keygen:</label>
+                <keygen name="keygen" class="keygen-inspiration">
+            </form>
+
+            <!-- 19. <menu> und <menuitem>: Kontextmenü -->
+            <menu class="menu-inspiration">
+                <menuitem label="Option 1" icon="https://via.placeholder.com/16" class="menuitem-inspiration"></menuitem>
+                <menuitem label="Option 2" class="menuitem-inspiration"></menuitem>
+            </menu>
+        </section>
+    </main>
+
+    <footer class="footer-inspiration">
+        <p class="text-inspiration">© 2024 Vollständige HTML-Tags-Demo</p>
+    </footer>
+</body>
+</html>

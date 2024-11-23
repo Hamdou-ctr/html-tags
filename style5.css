@@ -1,0 +1,144 @@
+/* General Styles */
+body.body-inspire {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header.header-inspire {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1.h1-inspire {
+    margin: 0;
+}
+
+main.main-inspire {
+    padding: 20px;
+}
+
+section.section-inspire {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2.h2-inspire {
+    color: #4CAF50;
+}
+
+p.p-inspire {
+    line-height: 1.6;
+}
+
+.acronym-inspire {
+    font-style: italic;
+}
+
+.big-inspire {
+    font-size: 1.5em;
+}
+
+.center-inspire {
+    text-align: center;
+}
+
+.font-inspire {
+    font-family: Arial, sans-serif;
+    color: red;
+    font-size: 1.25em;
+}
+
+.strike-inspire {
+    text-decoration: line-through;
+}
+
+.tt-inspire {
+    font-family: monospace;
+}
+
+.listing-inspire,
+.xmp-inspire {
+    display: block;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.bdi-inspire {
+    unicode-bidi: isolate;
+}
+
+.ruby-inspire {
+    ruby-align: center;
+}
+
+.rp-inspire {
+    display: none;
+}
+
+.rt-inspire {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.rtc-inspire {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.details-inspire {
+    margin: 10px 0;
+}
+
+.summary-inspire {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dialog-inspire {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.button-inspire {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-inspire:hover {
+    background-color: #45a049;
+}
+
+.shadow-inspire,
+.slot-inspire,
+.content-inspire {
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+footer.footer-inspire {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,182 @@
+/* style3.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header-inspiration {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-inspiration {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.main-inspiration {
+    padding: 20px;
+}
+
+.section-inspiration {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle-inspiration {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.text-inspiration {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.bdo-inspiration {
+    direction: rtl;
+}
+
+.cite-inspiration {
+    font-style: italic;
+}
+
+.dfn-inspiration {
+    font-weight: bold;
+}
+
+.data-inspiration {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.form-inspiration {
+    margin-bottom: 15px;
+}
+
+.input-inspiration {
+    width: 50px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.output-inspiration {
+    font-weight: bold;
+}
+
+.wbr-inspiration {
+    word-break: break-all;
+}
+
+.ins-inspiration {
+    text-decoration: underline;
+    color: green;
+}
+
+.del-inspiration {
+    text-decoration: line-through;
+    color: red;
+}
+
+.noscript-inspiration {
+    color: red;
+    font-weight: bold;
+}
+
+.samp-inspiration {
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.var-inspiration {
+    font-style: italic;
+}
+
+.sub-inspiration {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.sup-inspiration {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.time-inspiration {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.template-inspiration {
+    display: none;
+}
+
+.picture-inspiration {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.img-inspiration {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-inspiration {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.bgsound-inspiration {
+    display: none;
+}
+
+.isindex-inspiration {
+    display: none;
+}
+
+.keygen-inspiration {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.menu-inspiration {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.menuitem-inspiration {
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.menuitem-inspiration:hover {
+    background-color: #ddd;
+}
+
+.footer-inspiration {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

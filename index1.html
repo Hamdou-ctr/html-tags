@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Eine umfassende HTML-Demonstration" />
+        <title>HTML-Demonstration1</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body class="body-inspire">
+        <!-- Grundlegende Struktur-Elemente -->
+        <header class="header-inspire">
+            <h1 class="h1-inspire">HTML-Demonstration</h1>
+            <nav class="nav-inspire">
+                <ul class="ul-inspire">
+                    <li class="li-inspire"><a href="#text" class="a-inspire">Text</a></li>
+                    <li class="li-inspire"><a href="#listen" class="a-inspire">Listen</a></li>
+                    <li class="li-inspire"><a href="#formulare" class="a-inspire">Formulare</a></li>
+                    <li class="li-inspire"><a href="#tabellen" class="a-inspire">Tabellen</a></li>
+                    <li class="li-inspire"><a href="#medien" class="a-inspire">Medien</a></li>
+                    <li class="li-inspire"><a href="#interaktiv" class="a-inspire">Interaktiv</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-inspire">
+            <!-- Text-Inhalte -->
+            <section id="text" class="section-inspire">
+                <h2 class="h2-inspire">Text-Inhalte</h2>
+                <p class="p-inspire">Dies ist ein Absatz.</p>
+                <p class="p-inspire">Ein <strong class="strong-inspire">fetter</strong> und ein <em class="em-inspire">kursiver</em> Text.</p>
+                <p class="p-inspire">
+                    Ein Abkürzungsbeispiel:
+                    <abbr title="Hypertext Markup Language" class="abbr-inspire">HTML</abbr>.
+                </p>
+                <blockquote cite="https://example.com" class="blockquote-inspire">
+                    Dies ist ein Zitat mit einer Quelle.
+                </blockquote>
+                <p class="p-inspire">Ein Beispiel für <mark class="mark-inspire">hervorgehobenen</mark> Text.</p>
+                <p class="p-inspire">Ein Beispiel mit einem Codeblock: <code class="code-inspire">&lt;div&gt;</code>.</p>
+                <pre class="pre-inspire">
+Vorformatierter Text:
+Zeile 1
+Zeile 2
+                </pre>
+            </section>
+
+            <!-- Listen -->
+            <section id="listen" class="section-inspire">
+                <h2 class="h2-inspire">Listen</h2>
+                <ul class="ul-inspire">
+                    <li class="li-inspire">Ungeordnete Liste</li>
+                    <li class="li-inspire">Ein weiteres Element</li>
+                </ul>
+                <ol class="ol-inspire">
+                    <li class="li-inspire">Geordnete Liste</li>
+                    <li class="li-inspire">Ein weiteres Element</li>
+                </ol>
+                <dl class="dl-inspire">
+                    <dt class="dt-inspire">HTML</dt>
+                    <dd class="dd-inspire">Hypertext Markup Language</dd>
+                    <dt class="dt-inspire">CSS</dt>
+                    <dd class="dd-inspire">Cascading Style Sheets</dd>
+                </dl>
+            </section>
+
+            <!-- Formulare -->
+            <section id="formulare" class="section-inspire">
+                <h2 class="h2-inspire">Formulare</h2>
+                <form class="form-inspire">
+                    <label for="name" class="label-inspire">Name:</label>
+                    <input type="text" id="name" name="name" class="input-inspire" /><br /><br />
+                    <label for="farbe" class="label-inspire">Farbe:</label>
+                    <input type="color" id="farbe" name="farbe" class="input-inspire" /><br /><br />
+                    <label for="datum" class="label-inspire">Datum:</label>
+                    <input type="date" id="datum" name="datum" class="input-inspire" /><br /><br />
+                    <textarea name="nachricht" rows="4" cols="50" class="textarea-inspire">
+                        Nachricht hier eingeben...
+                    </textarea><br /><br />
+                    <button type="submit" class="button-inspire">Absenden</button>
+                </form>
+            </section>
+
+            <!-- Tabellen -->
+            <section id="tabellen" class="section-inspire">
+                <h2 class="h2-inspire">Tabellen</h2>
+                <table border="1" class="table-inspire">
+                    <thead class="thead-inspire">
+                        <tr class="tr-inspire">
+                            <th class="th-inspire">Name</th>
+                            <th class="th-inspire">Alter</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody-inspire">
+                        <tr class="tr-inspire">
+                            <td class="td-inspire">Max</td>
+                            <td class="td-inspire">25</td>
+                        </tr>
+                        <tr class="tr-inspire">
+                            <td class="td-inspire">Anna</td>
+                            <td class="td-inspire">30</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="tfoot-inspire">
+                        <tr class="tr-inspire">
+                            <td colspan="2" class="td-inspire">Ende der Tabelle</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!-- Medien -->
+            <section id="medien" class="section-inspire">
+                <h2 class="h2-inspire">Medien</h2>
+                <img src="https://via.placeholder.com/150" alt="Beispielbild" class="img-inspire" />
+                <figure class="figure-inspire">
+                    <img src="https://via.placeholder.com/150" alt="Beispielbild" class="img-inspire" />
+                    <figcaption class="figcaption-inspire">Ein Bild mit Beschreibung.</figcaption>
+                </figure>
+                <audio controls class="audio-inspire">
+                    <source src="audio.mp3" type="audio/mpeg" />
+                    Dein Browser unterstützt kein Audio.
+                </audio>
+                <video controls width="300" class="video-inspire">
+                    <source src="video.mp4" type="video/mp4" />
+                    Dein Browser unterstützt kein Video.
+                </video>
+            </section>
+
+            <!-- Interaktive Elemente -->
+            <section id="interaktiv" class="section-inspire">
+                <h2 class="h2-inspire">Interaktive Elemente</h2>
+                <details class="details-inspire">
+                    <summary class="summary-inspire">Klicke hier, um mehr zu erfahren</summary>
+                    <p class="p-inspire">Dies ist der verborgene Inhalt.</p>
+                </details>
+                <dialog id="meinDialog" class="dialog-inspire">
+                    <p class="p-inspire">Hallo, ich bin ein Dialog!</p>
+                    <button onclick="document.getElementById('meinDialog').close()" class="button-inspire">
+                        Schließen
+                    </button>
+                </dialog>
+                <button onclick="document.getElementById('meinDialog').showModal()" class="button-inspire">
+                    Dialog öffnen
+                </button>
+                <progress value="50" max="100" class="progress-inspire"></progress>
+                <meter value="75" min="0" max="100" class="meter-inspire">75%</meter>
+            </section>
+        </main>
+
+        <footer class="footer-inspire">
+            <p class="p-inspire">© 2024 HTML-Demonstration</p>
+        </footer>
+    </body>
+</html>

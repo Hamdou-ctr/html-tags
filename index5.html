@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vollständige HTML-Tags</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body class="body-inspire">
+    <header class="header-inspire">
+        <h1 class="h1-inspire">Alle HTML-Tags in einem Dokument</h1>
+    </header>
+
+    <main class="main-inspire">
+        <!-- 1. Veraltete und seltene Elemente -->
+        <section class="section-inspire">
+            <h2 class="h2-inspire">Veraltete oder wenig genutzte HTML-Tags</h2>
+
+            <!-- <acronym>: Wurde durch <abbr> ersetzt -->
+            <p class="p-inspire">Ein Beispiel für ein veraltetes <acronym title="HyperText Markup Language" class="acronym-inspire">HTML</acronym>-Tag.</p>
+
+            <!-- <big>: Größerer Text (veraltet) -->
+            <p class="p-inspire">Dies ist ein <big class="big-inspire">großer Text</big>.</p>
+
+            <!-- <center>: Zentrierung (veraltet, durch CSS ersetzt) -->
+            <center class="center-inspire">Dies ist ein zentrierter Text (veraltet).</center>
+
+            <!-- <font>: Textformatierung (veraltet, durch CSS ersetzt) -->
+            <font color="red" size="4" face="Arial" class="font-inspire">Veraltetes <font>-Tag.</font>
+
+            <!-- <strike>: Durchgestrichener Text (veraltet, durch <s> ersetzt) -->
+            <p class="p-inspire">Das ist ein <strike class="strike-inspire">durchgestrichener Text</strike>.</p>
+
+            <!-- <tt>: Monospace-Text (veraltet) -->
+            <p class="p-inspire">Das ist ein Text im <tt class="tt-inspire">Monospace-Stil</tt>.</p>
+
+            <!-- <frameset>, <frame>, <noframes>: Framebasierte Layouts (veraltet) -->
+            <p class="p-inspire">Framesets wurden durch CSS-Layouts und `<iframe>` ersetzt.</p>
+
+            <!-- <listing>: Vorformatierte ASCII-Daten (veraltet) -->
+            <listing class="listing-inspire"></listing>
+                Vorformatierter Text aus einer alten ASCII-Datenquelle.
+            </listing>
+
+            <!-- <xmp>: Vorformatierter Text (veraltet) -->
+            <xmp class="xmp-inspire"></xmp>
+                Vorformatierter Text mit XMP.
+            </xmp>
+        </section>
+
+        <!-- 2. Seltener genutzte Tags -->
+        <section class="section-inspire"></section>
+            <h2 class="h2-inspire">Seltener genutzte HTML-Tags</h2>
+
+            <!-- <bdi>: Isoliert den Textfluss -->
+            <p class="p-inspire">Benutzer: <bdi class="bdi-inspire">Ali (RTL)</bdi>.</p>
+
+            <!-- <rp>: Ruby-Fallback -->
+            <p class="p-inspire">Ruby-Beispiel: <ruby class="ruby-inspire">漢 <rp class="rp-inspire">(</rp><rt class="rt-inspire">han</rt><rp class="rp-inspire">)</rp></ruby></p>
+
+            <!-- <rtc>: Teil eines Ruby-Containers -->
+            <p class="p-inspire">Ruby mit `<rtc>`: <ruby class="ruby-inspire">漢<rtc class="rtc-inspire">kan</rtc><rt class="rt-inspire">Han</rt></ruby></p>
+
+            <!-- <summary>: Zusammenfassung in <details> -->
+            <details class="details-inspire">
+                <summary class="summary-inspire">Klicke hier für Details</summary>
+                <p class="p-inspire">Dies ist ein versteckter Text, der sichtbar wird, wenn du darauf klickst.</p>
+            </details>
+
+            <!-- <dialog>: Dialogfenster -->
+            <dialog id="dlg" class="dialog-inspire">Dies ist ein Dialog. <button onclick="document.getElementById('dlg').close()" class="button-inspire">Schließen</button></dialog>
+            <button onclick="document.getElementById('dlg').showModal()" class="button-inspire">Dialog öffnen</button>
+        </section>
+
+        <!-- 3. HTML-Experimente -->
+        <section class="section-inspire">
+            <h2 class="h2-inspire">Experimentelle oder seltener dokumentierte Tags</h2>
+
+            <!-- <shadow>: Shadow DOM -->
+            <shadow class="shadow-inspire">Dies ist experimentell und meist über JavaScript verfügbar.</shadow>
+
+            <!-- <slot>: Platzhalter im Shadow DOM -->
+            <slot class="slot-inspire">Standardinhalt eines Slots.</slot>
+
+            <!-- <content>: Veraltet für Web Components -->
+            <content class="content-inspire">Dies ist ein veralteter Inhalt.</content>
+        </section>
+
+        <!-- 4. HTML-Kommentare -->
+        <section class="section-inspire">
+            <h2 class="h2-inspire">HTML-Kommentare und Sonderzeichen</h2>
+            <!-- Das ist ein HTML-Kommentar -->
+            <p class="p-inspire">Kommentare erscheinen nicht auf der Seite, sondern nur im Quellcode.</p>
+            <p class="p-inspire">&lt; und &gt; sind die Zeichen `<` und `>`.</p>
+        </section>
+    </main>
+
+    <footer class="footer-inspire">
+        <p class="p-inspire">© 2024 Vollständige HTML-Demonstration</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,200 @@
+/* Global Styles */
+body.body-inspire {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header.header-inspire {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header.header-inspire h1.h1-inspire {
+    margin: 0;
+}
+
+nav.nav-inspire ul.ul-inspire {
+    list-style: none;
+    padding: 0;
+}
+
+nav.nav-inspire ul.ul-inspire li.li-inspire {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav.nav-inspire ul.ul-inspire li.li-inspire a.a-inspire {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main.main-inspire {
+    padding: 20px;
+}
+
+/* Section Styles */
+section.section-inspire {
+    margin-bottom: 20px;
+}
+
+h2.h2-inspire {
+    color: #333;
+}
+
+/* Text Styles */
+p.p-inspire {
+    margin: 10px 0;
+}
+
+strong.strong-inspire {
+    font-weight: bold;
+}
+
+em.em-inspire {
+    font-style: italic;
+}
+
+abbr.abbr-inspire {
+    border-bottom: 1px dotted #333;
+    cursor: help;
+}
+
+blockquote.blockquote-inspire {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+}
+
+mark.mark-inspire {
+    background: #ff0;
+    padding: 0 5px;
+}
+
+code.code-inspire {
+    background: #f4f4f4;
+    padding: 2px 4px;
+    border: 1px solid #ddd;
+}
+
+pre.pre-inspire {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow: auto;
+}
+
+/* List Styles */
+ul.ul-inspire, ol.ol-inspire, dl.dl-inspire {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+li.li-inspire {
+    margin: 5px 0;
+}
+
+/* Form Styles */
+form.form-inspire {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+label.label-inspire {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input.input-inspire, textarea.textarea-inspire {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+button.button-inspire {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button.button-inspire:hover {
+    background: #555;
+}
+
+/* Table Styles */
+table.table-inspire {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table.table-inspire th.th-inspire, table.table-inspire td.td-inspire {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead.thead-inspire {
+    background: #f4f4f4;
+}
+
+/* Media Styles */
+img.img-inspire {
+    max-width: 100%;
+    height: auto;
+}
+
+figure.figure-inspire {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption.figcaption-inspire {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+audio.audio-inspire, video.video-inspire {
+    display: block;
+    margin: 20px 0;
+}
+
+/* Interactive Elements Styles */
+details.details-inspire {
+    margin: 20px 0;
+}
+
+summary.summary-inspire {
+    cursor: pointer;
+}
+
+dialog.dialog-inspire {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+progress.progress-inspire, meter.meter-inspire {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer.footer-inspire {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

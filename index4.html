@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komplette HTML-Dokumentation</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body class="inspirierend-body">
+    <header class="inspirierend-header">
+        <h1 class="inspirierend-h1">Vollständige HTML-Tags-Demonstration</h1>
+    </header>
+
+    <main class="inspirierend-main">
+        <section class="inspirierend-section">
+            <h2 class="inspirierend-h2">Weitere seltene oder spezielle HTML-Tags</h2>
+
+            <!-- 1. <ruby>, <rt>, <rp>: Ruby-Annotation -->
+            <p class="inspirierend-p">Das Wort <ruby class="inspirierend-ruby">漢<rt class="inspirierend-rt">kan</rt></ruby> bedeutet „China“ auf Japanisch.</p>
+            <p class="inspirierend-p">Das Wort <ruby class="inspirierend-ruby">汉<rp class="inspirierend-rp">(</rp><rt class="inspirierend-rt">han</rt><rp class="inspirierend-rp">)</rp></ruby> hat eine Lautschrift.</p>
+
+            <!-- 2. <legend>: Legende für Fieldsets -->
+            <fieldset class="inspirierend-fieldset">
+                <legend class="inspirierend-legend">Persönliche Informationen</legend>
+                <label for="name" class="inspirierend-label">Name:</label>
+                <input type="text" id="name" class="inspirierend-input">
+            </fieldset>
+
+            <!-- 3. <address>: Kontaktinformationen -->
+            <address class="inspirierend-address">
+                Kontakt: <a href="mailto:beispiel@example.com" class="inspirierend-a">beispiel@example.com</a><br>
+                Musterstraße 123, 12345 Musterstadt
+            </address>
+
+            <!-- 4. <figcaption>: Beschreibung für ein Bild -->
+            <figure class="inspirierend-figure">
+                <img src="https://via.placeholder.com/200" alt="Beispielbild" class="inspirierend-img">
+                <figcaption class="inspirierend-figcaption">Das ist eine Bildbeschreibung.</figcaption>
+            </figure>
+
+            <!-- 5. <mark>: Hervorgehobener Text -->
+            <p class="inspirierend-p">Dies ist ein <mark class="inspirierend-mark">hervorgehobener Text</mark>, weil er wichtig ist.</p>
+
+            <!-- 6. <article>: Ein eigenständiger Artikel -->
+            <article class="inspirierend-article"></article>
+                <h3 class="inspirierend-h3">Ein eigenständiger Artikel</h3>
+                <p class="inspirierend-p">Dies ist Inhalt eines eigenständigen Artikels.</p>
+            </article>
+
+            <!-- 7. <bdi>: Isoliert Textfluss -->
+            <p class="inspirierend-p">Benutzername: <bdi class="inspirierend-bdi">john.doe</bdi>!</p>
+
+            <!-- 8. <code>: Inline-Code -->
+            <p class="inspirierend-p">Beispiel für Inline-Code: <code class="inspirierend-code">document.write("Hallo Welt");</code></p>
+
+            <!-- 9. <pre>: Vorformatierter Text -->
+            <pre class="inspirierend-pre">
+Zeile 1
+    Zeile 2 (mit Einrückung)
+Zeile 3
+            </pre>
+
+            <!-- 10. <embed>: Einbetten von Inhalten -->
+            <p class="inspirierend-p">Hier ist ein eingebettetes PDF:</p>
+            <embed src="https://example.com/sample.pdf" type="application/pdf" width="600" height="400" class="inspirierend-embed">
+
+            <!-- 11. <meter>: Messwert -->
+            <p class="inspirierend-p">Speicherverbrauch:</p>
+            <meter value="0.7" min="0" max="1" class="inspirierend-meter">70%</meter>
+
+            <!-- 12. <progress>: Fortschrittsanzeige -->
+            <p class="inspirierend-p">Fortschritt:</p>
+            <progress value="45" max="100" class="inspirierend-progress">45%</progress>
+
+            <!-- 13. <small>: Kleiner Text -->
+            <p class="inspirierend-p">Dieser Text ist normal, aber <small class="inspirierend-small">dieser ist kleiner.</small></p>
+
+            <!-- 14. <u>: Unterstrichener Text -->
+            <p class="inspirierend-p">Dies ist ein <u class="inspirierend-u">unterstrichener Text</u>.</p>
+
+            <!-- 15. <kbd>: Benutzerinteraktion -->
+            <p class="inspirierend-p">Drücken Sie <kbd class="inspirierend-kbd">Ctrl</kbd> + <kbd class="inspirierend-kbd">C</kbd>, um zu kopieren.</p>
+
+            <!-- 16. <s>: Durchgestrichener Text -->
+            <p class="inspirierend-p">Dies ist ein <s class="inspirierend-s">durchgestrichener Text</s>.</p>
+
+            <!-- 17. <dl>, <dt>, <dd>: Definitionslisten -->
+            <dl class="inspirierend-dl">
+                <dt class="inspirierend-dt">HTML</dt>
+                <dd class="inspirierend-dd">Hypertext Markup Language</dd>
+                <dt class="inspirierend-dt">CSS</dt>
+                <dd class="inspirierend-dd">Cascading Style Sheets</dd>
+            </dl>
+
+            <!-- 18. <canvas>: Zeichenbereich -->
+            <p class="inspirierend-p">Ein leeres Canvas-Element:</p>
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;" class="inspirierend-canvas"></canvas>
+            <script>
+                const canvas = document.getElementById("myCanvas");
+                const ctx = canvas.getContext("2d");
+                ctx.fillStyle = "blue";
+                ctx.fillRect(20, 20, 150, 50);
+            </script>
+        </section>
+    </main>
+
+    <footer class="inspirierend-footer">
+        <p class="inspirierend-p">© 2024 Vollständige HTML-Dokumentation</p>
+    </footer>
+</body>
+</html>

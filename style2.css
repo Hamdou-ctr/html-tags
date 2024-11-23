@@ -1,0 +1,140 @@
+/* General Styles */
+body.body-inspire {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header.header-inspire, footer.footer-inspire {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1.h1-inspire, h2.h2-inspire, h3.h3-inspire {
+    color: #333;
+}
+
+main.main-inspire {
+    padding: 20px;
+}
+
+section.section-inspire {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.nav-inspire ul.ul-inspire {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav.nav-inspire ul.ul-inspire li.li-inspire {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav.nav-inspire ul.ul-inspire li.li-inspire a.a-inspire {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav.nav-inspire ul.ul-inspire li.li-inspire a.a-inspire:hover {
+    text-decoration: underline;
+}
+
+blockquote.blockquote-inspire {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+    color: #666;
+    font-style: italic;
+}
+
+table.table-inspire {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table.table-inspire th.th-inspire, table.table-inspire td.td-inspire {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table.table-inspire th.th-inspire {
+    background-color: #f2f2f2;
+}
+
+button.button-inspire {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.button-inspire:hover {
+    background-color: #0056b3;
+}
+
+input.input-inspire, select.select-inspire {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+fieldset.fieldset-inspire {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend.legend-inspire {
+    padding: 0 10px;
+}
+
+img.img-inspire, video.video-inspire, iframe.iframe-inspire, embed.embed-inspire, object.object-inspire {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+audio.audio-inspire {
+    width: 100%;
+    margin: 10px 0;
+}
+
+details.details-inspire {
+    margin: 10px 0;
+}
+
+dialog.dialog-inspire {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+progress.progress-inspire, meter.meter-inspire {
+    width: 100%;
+    margin: 10px 0;
+}
+
+marquee.marquee-inspire, blink.blink-inspire, applet.applet-inspire {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
